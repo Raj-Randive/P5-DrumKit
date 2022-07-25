@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #283149;
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+
+/*************************************************************************** */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    border: 2px solid rgb(246, 255, 0);
+    background-color: #384464;
+    margin-top: 5%;
+    font-size: 2.5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    border-radius: 50px;
+}
+
+
+img{
+    height: 90px;
+    width: 90px;
+    margin: 0 0 0 20px;
+    border-image: 3px 0 #DA0463;
+}
+
+/*************************************************************************** */
+
+.drum-sets{
+    /* border: 2px solid yellow; */
+    display: flex;
+
+}
+
+/********************************************************************** */
+
+.drum{
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-size: 5rem;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    color: #aed100;
+    text-shadow: 3px 0 #63600f;
+    font-weight: 800;
+    line-height: 1.8;
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+}
+
+.drum:hover{
+    outline: none;
+    font-family: 'Arvo', cursive;
+    font-size: 4.5rem;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    color: #aed100;
+    text-shadow: 3px 0 #3a3801;
+    font-weight: 800;
+    line-height: 1.8;
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+
+.whenPressed{
+    box-shadow: 0px 3px 4px 2px #DBEDF3;
+    opacity: 0.5;
+}
+
+.w{
+    background-image: url("../images/tom1.png");
+}
+.a{
+    background-image: url("../images/tom2.png");
+}
+.s{
+    background-image: url("../images/tom3.png");
+}
+.d{
+    background-image: url("../images/tom4.png");
+}
+.j{
+    background-image: url("../images/snare.png");
+}
+.k{
+    background-image: url("../images/crash.png");
+}
+.l{
+    background-image: url("../images/kick.png");
+}
+
+
+/*********************************************************************** */
+
+footer{
+    /* border: 2px solid blue; */
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+
+}
